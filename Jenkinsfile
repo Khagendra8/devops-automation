@@ -14,7 +14,7 @@ pipeline {
         stage('Build docker image'){
             steps{
                 script{
-                    sh 'docker build -t khagendra/kubernetes .'
+                    sh 'docker build -t khagendradocker/kubernetes .'
                 }
             }
         }
